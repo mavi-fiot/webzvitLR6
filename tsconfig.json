@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "dist",
+      "strict": true,
+      "allowJs": true
+    },
+    "include": [
+      "lr61.js",
+      "zvit.js",
+      "lr61/lr6.js"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

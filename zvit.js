@@ -479,12 +479,13 @@ else if (labNumber === 5.1) {
 
     }
 
+else if (labNumber === 6) {
+    
+    window.location.href = 'lr6.html';     
+    
 }
 
-
-
-
-
+}
 
 // Викликаємо функцію після завантаження сторінки
 window.onload = function() {

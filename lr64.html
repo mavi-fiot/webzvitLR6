@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lr64.css" type="text/css">
+    <script src="lr64.js"></script>
+    <title>Звіти з лабораторних робіт</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="FOTO_DOC1.jpg" alt="photo" style="width: 100px; height: auto; float: right;">
+        <h1>Звіти з лабораторних робіт</h1>
+        <h2>З дисципліни "WEB-орієнтовані технології. Основи Frontend та Backend розробок"</h2>
+    </header>
+    <main>
+        <!-- Текст про автора -->
+        <div class="author-info">
+            <p>Студент групи ІА-12 Вітрук Микола Анатолійович</p>
+        </div>
+        <!-- Меню-робіт -->
+        <div class="lab-menu">
+            <div class="lab-number">
+                <div onclick="displayContent(1)">Лабораторна<br>робота №1</div>
+                <div onclick="displayContent(2)">Лабораторна<br>робота №2</div>
+                <div onclick="displayContent(3)">Лабораторна<br>робота №3</div>
+                <div onclick="displayContent(4)">Лабораторна<br>робота №4</div>
+                <div onclick="displayContent(5)">Лабораторна<br>робота №5</div>
+                <div onclick="displayContent(5.1)">Лабораторна<br>робота №5.1</div>
+                <div onclick="displayContent(6)">Лабораторна<br>робота №6</div>
+                <div onclick="displayContent(7)">Лабораторна<br>робота №7</div>
+                <div onclick="displayContent(8)">Лабораторна<br>робота №8</div>
+                <div onclick="displayContent(9)">Лабораторна<br>робота №9</div>
+            </div>
+        </div>
+        <!-- Зміст роботи -->
+        <div class="report-content">
+            <!-- Місце для виведення інформації та меню змісту -->
+            <div class="info-display" id="info-display">
+                <!-- Тут буде відображатися меню змісту -->
+            </div>
+            <!-- Місце для змісту роботи -->
+            <div class="lab-content" id="lab-content">
+                <!-- Тут буде зміст лабораторної роботи -->
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
+
+
