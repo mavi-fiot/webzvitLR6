@@ -94,7 +94,7 @@ function displayContent(labNumber) {
     
         switch (buttonText) {
             case "Постановка задачі ЛР № 6":
-                window.location.href = 'lr6.html'; 
+                window.location.href = 'lr61.html'; 
                 break;
             case "Завдання № 2":
                 window.location.href = 'lr61.html'; 
@@ -111,6 +111,8 @@ function displayContent(labNumber) {
             case "Завдання № 8":
                 contentHTML = `
                 <body>
+                <h3>Завдання № 8</h3>
+
                 <form class="login-form">
                   <label>
                     Email
@@ -200,7 +202,7 @@ function displayContent(labNumber) {
             case "Завдання № 10":
                 window.location.href = 'lr610.html'; 
                 break;
-            case "ВИСНОВКИ за ЛР №6":
+            case "ВИСНОВКИ за ЛР №61":
                 window.location.href = 'lr6.html'; 
                 break;
             

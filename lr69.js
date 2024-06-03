@@ -105,6 +105,8 @@ function displaySubMenuContent(buttonText) {
             break; 
         case "Завдання № 9":
             contentHTML = `
+            <h3>Завдання № 9</h3>
+
             <div class="widget">
                 <p>Background color: <span class="color">-</span></p>
                 <button type="button" class="change-color">Change color</button>

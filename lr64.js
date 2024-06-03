@@ -94,7 +94,7 @@ function createSubMenu(labNumber) {
 
         switch (buttonText) {
             case "Постановка задачі ЛР № 6":
-                window.location.href = 'lr6.html'; 
+                window.location.href = 'lr61.html'; 
                 break;
             case "Завдання № 2":
                 window.location.href = 'lr61.html'; 
@@ -127,7 +127,7 @@ function createSubMenu(labNumber) {
                 window.location.href = 'lr610.html'; 
                 break;
             case "ВИСНОВКИ за ЛР №6":
-                window.location.href = 'lr6.html'; 
+                window.location.href = 'lr61.html'; 
                 break;
 
             default:

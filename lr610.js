@@ -86,7 +86,7 @@ function displaySubMenuContent(buttonText) {
 
     switch (buttonText) {
         case "Постановка задачі ЛР № 6":
-            window.location.href = 'lr6.html'; 
+            window.location.href = 'lr61.html'; 
             break;
         case "Завдання № 2":
             window.location.href = 'lr61.html'; 
@@ -109,6 +109,8 @@ function displaySubMenuContent(buttonText) {
 
             case "Завдання № 10":
                 contentHTML = `
+                    <h3>Завдання №10</h3>
+
                     <div id="controls">
                         <input type="number" min="1" max="100" step="1" />
                         <button type="button" data-create>Create</button>
@@ -136,11 +138,12 @@ function displaySubMenuContent(buttonText) {
                     <img src="695.jpg" alt="lr6105">
                     </div>
 
-                `;
-                break;
-            case "ВИСНОВКИ за ЛР №6":
-                contentHTML = "";
-                break;
+            `;
+            break;
+
+        case "ВИСНОВКИ за ЛР №6":
+            window.location.href = 'lr61.html';
+            break;
 
             default:
                 contentHTML = "<p>Тут має відображатися зміст вибраного пункту меню.</p>";
