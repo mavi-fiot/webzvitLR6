@@ -84,11 +84,11 @@ function displayContent(labNumber) {
     }
     
     function displaySubMenuContent(buttonText) {
-        // Перевірка наявності елемента lab-content
-        if (!document.getElementById("lab-content")) {
-            console.error("Елемент lab-content не знайдено.");
-            return;
-        }
+        // // Перевірка наявності елемента lab-content
+        // if (!document.getElementById("lab-content")) {
+        //     console.error("Елемент lab-content не знайдено.");
+        //     return;
+        // }
 
         let contentHTML = "";
     
@@ -122,7 +122,38 @@ function displayContent(labNumber) {
                   </label>
                   <button type="submit">Log in</button>
                 </form>
-                </body>            
+
+                <br><br>
+
+
+                <h3>Фіксація виконання завдань:</h3>
+
+                <p>Відсутність паролю</p>
+                <img src="681.jpg" alt="lr681">
+                <br>
+                <p>Відсутність пошти</p>
+                <img src="682.jpg" alt="lr682">
+                <br>
+                <p>Виведення у консоль введених даних</p>
+                <img src="683.jpg" alt="lr683">
+                <br>
+                <p>Використання submit</p>
+                <img src="684.jpg" alt="lr684">
+                <br>
+                <p>Контроль того, що сторінка не перезавантажується</p>
+                <img src="685.jpg" alt="lr685">
+                <br>
+                <p>Контроль заповненності полів</p>
+                <img src="686.jpg" alt="lr686">
+                <br>
+                <p>Контроль доступу до елементів форми з використанням elements</p>
+                <img src="687.jpg" alt="lr687">
+                <br>
+                <p>Контроль очищення полів з використанням reset</p>
+                <img src="688.jpg" alt="lr688">
+                <br>
+
+                
                 `;
 
                 // Додаємо контент
@@ -180,9 +211,9 @@ function displayContent(labNumber) {
         }
                 
     
-    
+    }
     // Додаємо зміст до lab-content
     document.getElementById("lab-content").innerHTML = contentHTML;
 
-    }
+    
 

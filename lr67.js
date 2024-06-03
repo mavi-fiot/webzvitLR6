@@ -83,11 +83,11 @@ function createSubMenu(labNumber) {
 }
  
 function displaySubMenuContent(buttonText) {
-    // Перевірка наявності елемента lab-content
-    if (!document.getElementById("lab-content")) {
-        console.error("Елемент lab-content не знайдено.");
-        return;
-    }
+    // // Перевірка наявності елемента lab-content
+    // if (!document.getElementById("lab-content")) {
+    //     console.error("Елемент lab-content не знайдено.");
+    //     return;
+    // }
 
     let contentHTML = ""; // Рядок, в якому буде зберігатися HTML-структура для вмісту
 
@@ -133,6 +133,14 @@ function displaySubMenuContent(buttonText) {
                     </ul>
                 </li>
             </ul>
+
+            <br><br>
+
+            <h3>Фіксація виконання завдань:</h3>
+
+                <p>Виведення значень у консоль</p>
+                <img src="671.jpg" alt="lr67">
+                
             `;
 
             
@@ -151,7 +159,10 @@ function displaySubMenuContent(buttonText) {
                 console.log(categoryName);
                 console.log('Елементи:', categoryItemsCount);
             });
-            return;
+            document.getElementById("lab-content").innerHTML = contentHTML; // Додали контент
+            break;
+
+            // return;
             
         case "Завдання № 8":
             window.location.href = 'lr68.html'; 

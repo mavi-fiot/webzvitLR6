@@ -115,6 +115,27 @@ function displaySubMenuContent(buttonText) {
                         <button type="button" data-destroy>Destroy</button>
                     </div>
                     <div id="boxes"></div>
+
+                    <div>
+
+                    <h3>Фіксація виконання завдань:</h3>
+
+                    <p>Перше введення значень (4 елементи)</p>
+                    <img src="691.jpg" alt="lr6101">
+                    <br>
+                    <p>Наступне введення даних (3 елементи)</p>
+                    <img src="692.jpg" alt="lr6102">
+                    <br>
+                    <p>Використання даних менше 1</p>
+                    <img src="693.jpg" alt="lr6103">
+                    <br>
+                    <p>Використання даних більше 100</p>
+                    <img src="694.jpg" alt="lr6104">
+                    <br>
+                    <p>Контроль очіщення поля введення та наслідків повторного натискання create (накладанян нових елементів - змінення кольору)</p>
+                    <img src="695.jpg" alt="lr6105">
+                    </div>
+
                 `;
                 break;
             case "ВИСНОВКИ за ЛР №6":
